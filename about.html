@@ -1,72 +1,99 @@
+<!DOCTYPE html>
+<html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Domin8soccer - About</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Welcome to Domin8soccer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-position: center top;
+        height: 300px;
+        width: 100%;
+      }
+
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .topnav a.active {
+        background-color: #f5102f;
+        color: white;
+      }
+
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      table.center {
+        margin-left: 25%; 
+        margin-right: 25%;
+      }
+
+      /* Media queries for smaller screens */
+      @media screen and (max-width: 768px) {
+        table.center {
+          margin-left: 10%; 
+          margin-right: 10%;
+        }
+
+        img {
+          width: 100%;
+        }
+
+        .topnav a {
+          font-size: 14px;
+        }
+      }
+
+      /* Media queries for even smaller screens */
+      @media screen and (max-width: 480px) {
+        table.center {
+          margin-left: 5%; 
+          margin-right: 5%;
+        }
+
+        .topnav a {
+          font-size: 12px;
+        }
+      }
+    </style>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="highlights.html">Highlights</a>
-        <a class="active" href="about.html">About</a>
-      </nav>
-      <div class="logo">
-        <a href="https://www.youtube.com/channel/UCFhndFPT8NBkQI8r4OQx0Ng" target="_blank">
-          <img src="youtube-logo.jpg" alt="YouTube logo">
-        </a>
-        <a href="https://www.instagram.com/domin8soccer/" target="_blank">
-          <img src="instagram-logo.jpg" alt="Instagram logo">
-        </a>
-      </div>
-    </header>
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="highlights.html">Highlights</a>
+      <a class="active" href="about.html">About</a>
+    </div>
 
-    <main>
-      <section class="intro">
-        <h1>About Me</h1>
-        <p>Hello, my name is Dominic Oliva. I am currently playing for Marauders Fc. Marauders Fc currently plays in the EPSL and USL2 and MASL3. My position is central midfield and left back. Domin8soccer is a website that I created to put my highlights and information about myself. I also have a YouTube channel and Instagram page (Domin8Soccer) where I post some of my workout videos and training videos.</p>
-        <ul>
-          <li>Birthday: 06/28/2005</li>
-          <li>GPA: 3.5</li>
-          <li>School: Centreville High School</li>
-          <li>Graduation year: 2023</li>
-        </ul>
-      </section>
+    <a href="https://www.youtube.com/channel/UCFhndFPT8NBkQI8r4OQx0Ng" target="_blank">
+      <img width="100" height="90" border="0" align="left" src="youtube logo1.jpg"/>
+    </a>
 
-      <section class="gallery">
-        <figure>
-          <a href="https://www.youtube.com/watch?v=iiGXJ63mbm8" target="_blank">
-            <img src="IMG_E3500[1].JPG" alt="Image 1">
-          </a>
-          <figcaption>Image 1 caption</figcaption>
-        </figure>
-        <figure>
-          <a href="https://youtu.be/HwrKPqBDawk" target="_blank">
-            <img src="IMG_E6470[1].JPG" alt="Image 2">
-          </a>
-          <figcaption>Image 2 caption</figcaption>
-        </figure>
-      </section>
-    </main>
-  </body>
-</html>
-/* Reset styles */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+    <a href="https://www.youtube.com/watch?v=iiGXJ63mbm8" target="_blank">
+      <img width="250" height="190" border="0" align="left" style="vertical-align:left;margin:90px -115px;border: 5px solid white;" src="IMG_E3500[1].JPG"/>
+    </a>
+    <a href="https://youtu.be/HwrKPqBDawk" target="_blank">
+      <img width="250" height="190" border="0" align="right" style="vertical-align:left;margin:90px 115px;border: 5px solid white;" src="IMG_E6470[1].JPG"/>
+    </a>
 
-/* Global styles */
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
-  color: white;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #333;
-  padding
+    <a href="https://www.instagram.com/domin8soccer/" target="_blank">
